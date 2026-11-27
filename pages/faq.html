@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#192b28">
+  <meta name="description" content="透析如虎口 FAQ：從居家換液、感染警訊、家屬支持到透析選擇，找到清楚且有依據的衛教資訊。">
+  <title>常見問題 FAQ｜透析如虎口 Always Check 路口</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700;800&family=Noto+Serif+TC:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/faq.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="shell nav">
+    <a class="brand" href="../index.html#home" aria-label="透析如虎口首頁">
+      <span class="brand-mark">路</span>
+      <span>透析如虎口<small>ALWAYS CHECK 路口</small></span>
+    </a>
+    <nav class="desktop-nav" aria-label="主要導覽">
+      <a href="../index.html#pain">生活疑問</a>
+      <a href="../index.html#path">探索學習</a>
+      <a href="../index.html#drama">情境短劇</a>
+      <a class="active" href="faq.html" aria-current="page">常見問題</a>
+      <a href="../index.html#help">快速求助</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="large-toggle" id="largeTextToggle" type="button" aria-pressed="false"><span>Aa</span> 大字模式</button>
+      <button class="menu-toggle" id="menuToggle" aria-label="開啟導覽選單" aria-expanded="false">☰</button>
+    </div>
+  </div>
+  <nav class="mobile-nav" id="mobileNav" aria-label="手機導覽">
+    <a href="../index.html#pain">生活疑問</a>
+    <a href="../index.html#path">探索學習</a>
+    <a href="../index.html#drama">情境短劇</a>
+    <a class="active" href="faq.html" aria-current="page">常見問題</a>
+    <a href="../index.html#help">快速求助</a>
+  </nav>
+</header>
+
+<main>
+  <section class="faq-hero">
+    <div class="shell hero-grid">
+      <div>
+        <div class="eyebrow">FAQ · FIND YOUR ANSWER</div>
+        <h1>有些擔心，<br><em>我們一起</em>慢慢釐清。</h1>
+        <p>從換液、感染警訊，到家人的支持與生活安排。先找到你正在面對的情境，再一步步理解。</p>
+        <div class="hero-pills"><span>以患者疑問出發</span><span>白話解釋 × 專業依據</span><span>臨床審核後發布</span></div>
+      </div>
+      <aside class="hero-note">
+        <span class="note-icon">?</span>
+        <strong>不知道怎麼問？</strong>
+        <p>你不需要先懂醫療名詞。選一個最接近現在狀況的情境，我們帶你找到相關問題。</p>
+        <a class="button button-orange" href="#scenarios">從我的情境開始 ↘</a>
+      </aside>
+    </div>
+  </section>
+
+  <section class="shell search-section" aria-label="搜尋常見問題">
+    <div class="section-kicker">START HERE</div>
+    <h2>你現在最想知道什麼？</h2>
+    <form id="searchForm" class="search-box" role="search">
+      <span aria-hidden="true">⌕</span>
+      <label class="sr-only" for="searchInput">搜尋問題或關鍵字</label>
+      <input id="searchInput" type="search" placeholder="試試看：混濁、換液、感染、家人、旅行…" autocomplete="off">
+      <button type="submit">搜尋</button>
+      <button type="button" class="clear-search" id="clearSearch" aria-label="清除搜尋">清除</button>
+    </form>
+    <p class="search-hint" id="searchStatus" aria-live="polite">可輸入生活用語或醫療關鍵字，不確定專有名詞也沒關係。</p>
+  </section>
+
+  <section class="shell scenarios-section" id="scenarios">
+    <div class="section-heading">
+      <div><div class="section-kicker">NOT SURE WHAT TO ASK?</div><h2>不知道怎麼問？<br>從你的情境開始。</h2></div>
+      <p>每個人遇到的問題都不一樣。選擇最接近你目前的狀況，就能先看到相關的解答。</p>
+    </div>
+    <div class="scenario-grid" id="scenarioGrid">
+      <article class="scenario-card"><div class="scenario-emoji">🌱</div><h3>我剛開始了解腹膜透析</h3><p>還不清楚 PD 是什麼，或正在比較不同治療方式。</p><button type="button" data-scenario="S-01">看看相關問題 <span>→</span></button></article>
+      <article class="scenario-card"><div class="scenario-emoji">🧼</div><h3>我正在家裡進行換液</h3><p>擔心環境、接頭、用品或操作步驟出錯。</p><button type="button" data-scenario="S-02">看看相關問題 <span>→</span></button></article>
+      <article class="scenario-card"><div class="scenario-emoji">🩺</div><h3>我發現身體或透析液有異常</h3><p>不確定這些變化是否需要聯絡透析中心。</p><button type="button" data-scenario="S-03">看看相關問題 <span>→</span></button></article>
+      <article class="scenario-card"><div class="scenario-emoji">🤝</div><h3>我是患者的家人或照顧者</h3><p>想幫忙，但不確定怎麼支持才合適。</p><button type="button" data-scenario="S-04">看看相關問題 <span>→</span></button></article>
+    </div>
+  </section>
+
+  <section class="questions-section" id="questions">
+    <div class="shell">
+      <div class="section-heading questions-heading">
+        <div><div class="section-kicker">BROWSE FAQ</div><h2>常見問題，一起找答案。</h2><p class="section-intro">依照患者最常面對的照護痛點排列。可以按主題瀏覽，也可以查看全部問題。</p></div>
+        <div class="view-switch" role="group" aria-label="問題瀏覽方式">
+          <button type="button" class="view-btn active" data-view="category" aria-pressed="true">依主題瀏覽</button>
+          <button type="button" class="view-btn" data-view="all" aria-pressed="false">查看全部</button>
+        </div>
+      </div>
+
+      <div class="popular-wrap">
+        <div class="popular-label"><span>✦</span> 編輯推薦先看</div>
+        <div class="popular-list" id="popularList"></div>
+        <p class="popular-note">此區為編輯依照照護重要性安排的推薦閱讀，並非網站使用者點擊統計。</p>
+      </div>
+
+      <div class="category-tabs" id="categoryTabs" aria-label="FAQ 主題篩選"></div>
+      <div id="faqContent" class="faq-content" aria-live="polite">
+        <div class="loading">正在載入常見問題…</div>
+      </div>
+      <div class="empty-state" id="emptyState" hidden>
+        <span>🔎</span><h3>暫時找不到符合的問題</h3><p>試試其他關鍵字，或從上方的患者情境入口開始。</p>
+        <button type="button" class="button button-dark" id="resetFilters">顯示全部問題</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="help-banner">
+    <div class="shell help-inner">
+      <div><div class="section-kicker">NEED HELP NOW?</div><h2>如果你正在遇到異常，<br>不要只靠 FAQ 判斷。</h2><p>FAQ 協助理解一般知識；實際症狀與處置，仍需要你的透析醫療團隊評估。</p></div>
+      <a class="button button-dark" href="../index.html#help">前往快速求助專區 ↗</a>
+    </div>
+  </section>
+  <section class="disclaimer">
+    <div class="shell"><strong>重要提醒：</strong>本頁提供一般衛教資訊，不取代醫師診斷、個別治療處方或腹膜透析護理師的實際操作訓練。若有透析液混濁、腹痛、發燒、導管異常或其他疑慮，請依所屬透析中心指示聯絡醫療團隊。頁面內容須經專業腹膜透析護理師及必要時腎臟科醫師審核後，方可正式發布。</div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="shell footer-row">
+    <a class="brand footer-brand" href="../index.html#home"><span class="brand-mark">路</span><span>透析如虎口<small>ALWAYS CHECK 路口</small></span></a>
+    <div class="footer-links"><a href="../index.html">回到首頁</a><a href="../index.html#path">居家照護教學</a><a href="../index.html#help">快速求助</a></div>
+  </div>
+  <div class="shell copyright">© 2026 透析如虎口｜Always Check 路口 · 第四組專案網站原型</div>
+</footer>
+<nav class="bottom-nav" aria-label="手機快速導覽">
+  <a href="../index.html#home"><span>⌂</span>首頁</a><a href="../index.html#path"><span>▦</span>教學</a><a class="active" href="faq.html"><span>？</span>FAQ</a><a href="../index.html#help"><span>＋</span>求助</a>
+</nav>
+<script src="../assets/js/faq.js" defer></script>
+</body>
+</html>

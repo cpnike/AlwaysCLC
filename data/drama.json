@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "project": "透析如虎口｜Always Check 路口",
+    "module": "AI 短劇專區",
+    "version": "1.0.0",
+    "language": "zh-TW",
+    "status": "content_placeholder",
+    "video_format": "vertical_9_16",
+    "note": "目前為介面與資料結構原型，尚未置入正式影片與劇情。"
+  },
+  "intro": {
+    "eyebrow": "STORIES THAT HELP YOU UNDERSTAND",
+    "title": "把難懂的醫療，\n變成看得懂的日常。",
+    "description": "透過生活情境短劇，陪你認識腹膜透析、照護挑戰與治療選擇。看完一集，也許就多一個能和醫療團隊討論的問題。",
+    "disclaimer": "短劇為衛教輔助素材，不取代醫療專業評估、個別化治療建議或透析中心訓練。"
+  },
+  "episodes": [
+    {
+      "id": "ep01",
+      "code": "EPISODE 01",
+      "title": "當透析走進生活",
+      "description": "從得知需要透析開始，認識治療選擇與生活可能的改變。",
+      "tags": [
+        "治療選擇",
+        "生活適應"
+      ],
+      "duration": "影片長度待確認",
+      "status": "placeholder",
+      "video_type": "vertical",
+      "video_url": "",
+      "poster_url": "",
+      "learning_takeaway": "先理解自己的疑問，再與醫療團隊討論適合的治療方式。",
+      "related_faq_ids": [],
+      "related_care_lesson_ids": [],
+      "editor_note": "請由內容組填入核定劇情簡介、影片連結、影片長度及相關 FAQ／照護單元。"
+    },
+    {
+      "id": "ep02",
+      "code": "EPISODE 02",
+      "title": "居家換液，真的安全嗎？",
+      "description": "面對居家換液的污染疑慮，認識訓練、準備與求助的重要性。",
+      "tags": [
+        "居家換液",
+        "感染預防"
+      ],
+      "duration": "影片長度待確認",
+      "status": "placeholder",
+      "video_type": "vertical",
+      "video_url": "",
+      "poster_url": "",
+      "learning_takeaway": "不要只靠記憶或猜測操作；依照透析中心訓練流程執行。",
+      "related_faq_ids": [],
+      "related_care_lesson_ids": [],
+      "editor_note": "請由內容組填入核定劇情簡介、影片連結、影片長度及相關 FAQ／照護單元。"
+    },
+    {
+      "id": "ep03",
+      "code": "EPISODE 03",
+      "title": "身體發出警訊時",
+      "description": "當身體出現異常變化，如何辨識需要聯絡醫療團隊的情況。",
+      "tags": [
+        "警訊辨識",
+        "及時求助"
+      ],
+      "duration": "影片長度待確認",
+      "status": "placeholder",
+      "video_type": "vertical",
+      "video_url": "",
+      "poster_url": "",
+      "learning_takeaway": "透析液混濁、腹痛或發燒等狀況值得重視，應依透析中心流程聯絡醫療團隊。",
+      "related_faq_ids": [],
+      "related_care_lesson_ids": [],
+      "editor_note": "請由內容組填入核定劇情簡介、影片連結、影片長度及相關 FAQ／照護單元。"
+    },
+    {
+      "id": "ep04",
+      "code": "EPISODE 04",
+      "title": "家人可以怎麼幫忙？",
+      "description": "家屬想參與照護，如何在支持患者與尊重自主之間取得平衡。",
+      "tags": [
+        "家屬支持",
+        "照護分工"
+      ],
+      "duration": "影片長度待確認",
+      "status": "placeholder",
+      "video_type": "vertical",
+      "video_url": "",
+      "poster_url": "",
+      "learning_takeaway": "先詢問患者需要什麼協助；需要執行操作時，應接受正式訓練。",
+      "related_faq_ids": [],
+      "related_care_lesson_ids": [],
+      "editor_note": "請由內容組填入核定劇情簡介、影片連結、影片長度及相關 FAQ／照護單元。"
+    },
+    {
+      "id": "ep05",
+      "code": "EPISODE 05",
+      "title": "洗腎後，生活還能繼續嗎？",
+      "description": "面對工作、外出與日常安排的擔憂，討論個別化的生活規劃。",
+      "tags": [
+        "生活安排",
+        "共同決策"
+      ],
+      "duration": "影片長度待確認",
+      "status": "placeholder",
+      "video_type": "vertical",
+      "video_url": "",
+      "poster_url": "",
+      "learning_takeaway": "生活安排需要考量個別治療計畫、身體狀況與醫療團隊建議。",
+      "related_faq_ids": [],
+      "related_care_lesson_ids": [],
+      "editor_note": "請由內容組填入核定劇情簡介、影片連結、影片長度及相關 FAQ／照護單元。"
+    }
+  ]
+}

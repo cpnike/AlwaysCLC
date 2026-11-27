@@ -1,0 +1,1188 @@
+{
+  "meta": {
+    "project": "透析如虎口｜Always Check 路口",
+    "title": "FAQ 常見問題資料庫",
+    "version": "1.1.0-evidence-mapped-draft",
+    "language": "zh-TW",
+    "status": "evidence_mapped_pending_clinical_review",
+    "editorial_principles": [
+      "以患者真實痛點排序，而非以疾病教科書章節排序",
+      "先承接患者情緒，再提供白話專業知識與可採取的行動",
+      "一般知識與臨床操作指引分開管理",
+      "所有操作流程、污染處置、警訊時效與求助流程須經腹膜透析護理師監督審核",
+      "不得以本網站取代個別醫療團隊指示"
+    ],
+    "clinical_supervision": {
+      "team": "醫學生組成的開發團隊",
+      "supervisor": "專業腹膜透析護理師",
+      "approval_required_before_publication": true,
+      "workflow": [
+        "開發團隊整理題目與初稿",
+        "對照台灣腎臟醫學會指引及 PD 臨床案例解析，記錄章節/頁碼",
+        "專業腹膜透析護理師逐題審閱操作與照護內容",
+        "必要時由腎臟科醫師確認診療、警訊與治療選擇內容",
+        "完成審核後才將 status 改為 approved_for_publication"
+      ],
+      "review_status_legend": {
+        "evidence_mapped": "已找到可支持主題的台灣腎臟醫學會文件內容",
+        "pending": "仍需腹膜透析護理師／腎臟科醫師確認患者版措辭及實際處置",
+        "not_directly_supported": "指定文件未提供足以支持具體步驟的內容，需由臨床監督者補充核准資料"
+      }
+    },
+    "source_policy": {
+      "preferred_taiwan_source": "台灣腎臟醫學會",
+      "guideline_hub": "https://www.tsn.org.tw/guide.html",
+      "notes": [
+        "引用來源需逐題對應，不可只因文件屬於腎臟醫學會出版就視為支持該題全部內容。",
+        "若指引或案例解析未涵蓋特定操作細節，標示需由臨床監督者補充，不以模型知識補齊。",
+        "公開網站目前不應直接展示未經審核的操作細節。"
+      ],
+      "page_numbering": "PDF_page is the 1-indexed page within the uploaded PDF; printed_page is the page number printed in the document. Where only a case heading is confirmed, do not invent a page number."
+    },
+    "reference_library": [
+      {
+        "id": "TSN-PD-CASEBOOK-2021",
+        "title": "腹膜透析治療 臨床案例解析（中文版）",
+        "publisher": "台灣腎臟醫學會",
+        "year": 2021,
+        "url": "https://www.tsn.org.tw/secure/archive/20261021/2850b947-1af8-4468-b8f4-dc05f88ca84b.pdf",
+        "use": "PD治療模式、腹膜炎、導管出口處／隧道感染、引流異常及旅行情境",
+        "verified_sections": [
+          {
+            "section": "腹膜透析概述",
+            "pdf_pages": [
+              14,
+              15
+            ]
+          },
+          {
+            "section": "病例04：腹膜炎",
+            "pdf_pages": [
+              27,
+              28,
+              29
+            ]
+          },
+          {
+            "section": "病例05：隧道感染",
+            "pdf_pages": [
+              30,
+              31,
+              32
+            ]
+          },
+          {
+            "section": "病例23：旅行處方調整",
+            "pdf_pages": null,
+            "note": "已由檢索文字確認病例內容；正式版頁碼待補讀該段落。"
+          }
+        ],
+        "limitations": "案例教材並非最新獨立指引；病例中的抗生素處方及舊版ISPD建議不得直接轉寫成患者自行處置指示。"
+      },
+      {
+        "id": "TSN-CKD-GUIDELINE-2025",
+        "title": "臺灣慢性腎臟病臨床診療指引（2025更新版）",
+        "publisher": "台灣腎臟醫學會",
+        "year": 2025,
+        "url": "https://www.tsn.org.tw/secure/archive/20261021/8c343fcb-a9bd-422f-8ff5-c638dd7992a1.pdf",
+        "use": "透析時機、腎臟替代療法選擇、PD與HD比較及共同決策",
+        "verified_sections": [
+          {
+            "section": "第十章第一節：透析治療的時機與準備",
+            "printed_pages": [
+              197,
+              198,
+              199
+            ],
+            "pdf_pages": [
+              200,
+              201,
+              202
+            ]
+          },
+          {
+            "section": "第十章第二節：腎臟替代療法的模式選擇",
+            "printed_pages": [
+              202,
+              203,
+              204,
+              205,
+              206
+            ],
+            "pdf_pages": [
+              205,
+              206,
+              207,
+              208,
+              209
+            ]
+          }
+        ],
+        "key_recommendations": [
+          {
+            "id": "A10-1-1",
+            "recommendation": "透析開始時機應個人化，不能以單一eGFR數值決定；通常在無法控制的尿毒症狀與併發症嚴重影響生命或生活品質時考慮。",
+            "grade": "2B",
+            "printed_page": 197
+          },
+          {
+            "id": "A10-1-2",
+            "recommendation": "CKD第5期可考慮以共享決策選擇腎臟替代療法，並納入腎臟移植及安寧療護選項。",
+            "grade": "2B",
+            "printed_page": 197
+          },
+          {
+            "id": "A10-2-3",
+            "recommendation": "無法接受腎臟移植者，可依自主選擇血液透析或腹膜透析，兩者長期預後近似。",
+            "grade": "1B",
+            "printed_page": 202
+          },
+          {
+            "id": "A10-2-4",
+            "recommendation": "可考慮使用共享決策協助選擇腎臟替代療法。",
+            "grade": "2B",
+            "printed_page": 202
+          },
+          {
+            "id": "A10-2-5",
+            "recommendation": "心衰竭患者需注意水分控制，但心衰竭並非腹膜透析絕對禁忌症。",
+            "grade": "1B",
+            "printed_page": 202
+          }
+        ]
+      },
+      {
+        "id": "TSN-GUIDELINE-HUB",
+        "title": "台灣腎臟醫學會指引專區",
+        "publisher": "台灣腎臟醫學會",
+        "url": "https://www.tsn.org.tw/guide.html",
+        "use": "官方文件索引及後續版本更新追蹤"
+      }
+    ],
+    "source_access_note": "本版已直接檢視使用者上傳的兩份PDF。頁碼均以PDF內頁與文件印刷頁碼分別記錄。PD案例解析屬臨床案例教材，部分內容引用其所轉述的ISPD舊版建議；不能視為最新獨立臨床指引。具體操作、污染處理與警訊求助時效仍須由專業腹膜透析護理師及腎臟科醫師審核，必要時另核對現行ISPD更新版。",
+    "guideline_methodology_note": "2025 CKD指引第二章說明其發展採系統性文獻回顧、GRADE證據評等，並考量資源利用、利弊平衡及病人偏好與價值觀形成建議。可作為本專案引用指引及避免將不同證據強度混為一談的編輯原則。"
+  },
+  "categories": [
+    {
+      "id": "home_exchange_infection",
+      "order": 1,
+      "title": "居家換液時，擔心污染與感染",
+      "priority": "high",
+      "description": "不知道哪些步驟最重要、害怕自己漏做或做錯。"
+    },
+    {
+      "id": "warning_signs",
+      "order": 2,
+      "title": "不清楚哪些身體變化需要警覺",
+      "priority": "high",
+      "description": "不確定異常是否需要立即聯絡醫療團隊。"
+    },
+    {
+      "id": "caregiver_support",
+      "order": 3,
+      "title": "家屬想幫忙，卻不知道如何支持",
+      "priority": "medium",
+      "description": "角色分工不明，擔心幫倒忙或忽略患者自主性。"
+    },
+    {
+      "id": "understanding_pd",
+      "order": 4,
+      "title": "透析資訊太多，難以理解與記住",
+      "priority": "medium",
+      "description": "專業名詞多、資訊量大，缺乏生活化理解入口。"
+    }
+  ],
+  "faq": [
+    {
+      "id": "FAQ-01",
+      "order": 1,
+      "category_id": "home_exchange_infection",
+      "question": "腹膜透析換液有哪些步驟？我怎麼知道自己有沒有做對？",
+      "format": "step_by_step_guide",
+      "tags": [
+        "換液",
+        "操作流程",
+        "初學者"
+      ],
+      "emotion": "第一次接觸腹膜透析，可能會覺得換液流程很複雜，也會擔心漏掉步驟。這樣的擔心很常見。你不需要第一次就全部記住，可以在護理師指導下反覆練習，逐步建立自己的操作習慣。",
+      "answer": {
+        "summary": "腹膜透析的治療方式與換液流程會依 CAPD、APD 及個人處方而不同，應以所屬透析中心實際教學為準。",
+        "key_points": [
+          "CAPD（連續可攜式腹膜透析）與 APD（自動化腹膜透析）的設備與流程不同。",
+          "應依照護理師實際教學，熟悉用品準備、手部衛生、管路連接、治療完成後觀察及紀錄等環節。",
+          "若不確定某一步驟是否正確，應先向透析團隊確認，不要自行改變流程。"
+        ],
+        "action": "請透析團隊安排回覆示教（return demonstration），由患者實際示範並由護理師確認操作能力。"
+      },
+      "interaction": {
+        "type": "stepper",
+        "steps": [
+          "認識自己的透析方式與處方",
+          "認識用品與操作環境",
+          "依照護理師教學逐步練習",
+          "由護理師確認操作能力",
+          "了解完成治療後的觀察與紀錄"
+        ]
+      },
+      "clinical_review": {
+        "required": true,
+        "reviewer_role": "腹膜透析護理師",
+        "review_items": [
+          "CAPD/APD 流程是否分開呈現",
+          "每一步操作順序與用語",
+          "圖片或影片是否符合合作院所教學",
+          "是否需要區分不同耗材系統"
+        ],
+        "status": "pending"
+      },
+      "sources": [
+        {
+          "name": "台灣腎臟醫學會－腹膜透析治療臨床案例解析（中文版）",
+          "url": "https://www.tsn.org.tw/secure/archive/20261021/2850b947-1af8-4468-b8f4-dc05f88ca84b.pdf",
+          "use": "作為台灣 PD 臨床案例與治療情境參考；具體換液教學步驟仍須由護理師提供及確認。"
+        }
+      ],
+      "related": [
+        "CARE-GUIDE-EXCHANGE"
+      ],
+      "evidence": [
+        {
+          "ref_id": "TSN-PD-CASEBOOK-2021",
+          "section": "腹膜透析概述；病例01初始腹膜透析處方",
+          "pdf_pages": [
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "support": "可支持CAPD/APD及處方需個別化的概念；不包含可直接照抄的患者換液教學SOP。",
+          "support_level": "partial"
+        }
+      ]
+    },
+    {
+      "id": "FAQ-02",
+      "order": 2,
+      "category_id": "home_exchange_infection",
+      "question": "在家換液時，環境需要多乾淨？有哪些事情特別要注意？",
+      "format": "interactive_checklist",
+      "tags": [
+        "居家環境",
+        "清潔",
+        "感染預防"
+      ],
+      "emotion": "很多人會擔心家裡是不是必須像醫院一樣無菌。其實，重點不是把家裡變成醫院，而是依照透析團隊教導，建立適合操作、能降低污染風險的空間。",
+      "answer": {
+        "summary": "居家換液空間應依透析中心的環境準備與感染預防衛教規劃；不同院所、設備及患者居家條件可能需要個別調整。",
+        "key_points": [
+          "與護理師一起確認適合的固定操作空間。",
+          "確認照明、桌面、用品存放及操作時減少干擾的方式。",
+          "寵物、風扇、門窗及環境清潔等細節，依透析中心的訓練內容確認。",
+          "不要將一般居家清潔建議自行解讀為無菌保證。"
+        ],
+        "action": "可將居家換液空間拍照或於居家訪視時請護理師協助檢視。"
+      },
+      "interaction": {
+        "type": "checklist",
+        "items": [
+          "已與護理師確認固定的操作空間",
+          "照明足夠，能清楚檢查用品",
+          "用品有適當存放位置",
+          "已了解操作前環境整理方式",
+          "已了解如何減少操作時的干擾",
+          "已向護理師確認寵物與通風相關注意事項"
+        ]
+      },
+      "clinical_review": {
+        "required": true,
+        "reviewer_role": "腹膜透析護理師",
+        "review_items": [
+          "環境清單是否符合院所衛教",
+          "寵物、風扇、門窗與清潔建議是否精確",
+          "是否避免不必要或過度的無菌環境要求"
+        ],
+        "status": "pending"
+      },
+      "sources": [
+        {
+          "name": "台灣腎臟醫學會－腹膜透析治療臨床案例解析（中文版）",
+          "url": "https://www.tsn.org.tw/secure/archive/20261021/2850b947-1af8-4468-b8f4-dc05f88ca84b.pdf",
+          "use": "作為 PD 照護情境參考；居家環境檢核細項待護理師確認。"
+        }
+      ],
+      "related": [
+        "CARE-GUIDE-ENVIRONMENT"
+      ],
+      "evidence": [
+        {
+          "ref_id": "TSN-PD-CASEBOOK-2021",
+          "section": "病例05隧道感染；導管相關感染預防與管理",
+          "pdf_pages": [
+            30,
+            31,
+            32
+          ],
+          "support": "支持導管出口處／隧道感染的辨識與居家訪視評估概念；不足以支持完整居家換液環境清單。",
+          "support_level": "partial"
+        }
+      ]
+    },
+    {
+      "id": "FAQ-03",
+      "order": 3,
+      "category_id": "home_exchange_infection",
+      "question": "換液時不小心碰到接頭，或懷疑受到污染，該怎麼辦？",
+      "format": "scenario_choice",
+      "tags": [
+        "接頭污染",
+        "無菌操作",
+        "意外處理"
+      ],
+      "emotion": "操作時不小心碰到接頭，可能會讓人瞬間緊張，甚至害怕自己造成感染。先不要慌張，也不要為了趕快完成治療而自行猜測處理方式；及早向透析團隊說明，才有機會得到符合你目前情況的指示。",
+      "answer": {
+        "summary": "接頭污染的處置取決於污染位置、發生階段及使用的系統，不能用單一方式處理所有情境。",
+        "key_points": [
+          "不要自行假設擦拭後就能恢復無菌狀態。",
+          "不要隱瞞污染事件或自行拼湊處理步驟。",
+          "應依照所屬透析中心訓練過的污染處置流程，立即聯絡透析團隊。"
+        ],
+        "action": "聯絡透析中心時，清楚說明碰觸的位置、發生時間、當時治療進度及目前是否已連接管路；依護理師指示處理。"
+      },
+      "interaction": {
+        "type": "scenario",
+        "scenario": "換液過程中，發現接頭碰到了衣物。",
+        "choices": [
+          {
+            "id": "a",
+            "text": "自行用酒精擦拭後繼續",
+            "feedback": "不應自行假設擦拭即可恢復無菌狀態。"
+          },
+          {
+            "id": "b",
+            "text": "忽略事件，趕快完成換液",
+            "feedback": "忽略污染可能延誤正確處置。"
+          },
+          {
+            "id": "c",
+            "text": "停止自行判斷，依受訓流程聯絡透析團隊",
+            "feedback": "這是較安全的求助方向；具體下一步依所屬中心流程。",
+            "preferred": true
+          }
+        ]
+      },
+      "clinical_review": {
+        "required": true,
+        "reviewer_role": "腹膜透析護理師",
+        "review_items": [
+          "各種污染位置與情境是否正確分類",
+          "是否需依不同接頭/耗材系統分支",
+          "選項回饋是否避免提供錯誤處置指示",
+          "求助時效及聯絡管道",
+          "目前TSN上傳教材未提供接頭污染患者版SOP；須由監督護理師提供現行院所流程，否則只保留求助原則"
+        ],
+        "status": "pending"
+      },
+      "sources": [
+        {
+          "name": "台灣腎臟醫學會－腹膜透析治療臨床案例解析（中文版）",
+          "url": "https://www.tsn.org.tw/secure/archive/20261021/2850b947-1af8-4468-b8f4-dc05f88ca84b.pdf",
+          "use": "臨床案例背景參考；正式污染處置流程需由監督護理師指定院所標準。"
+        }
+      ],
+      "related": [
+        "EMERGENCY-CONTAMINATION"
+      ],
+      "evidence": [
+        {
+          "ref_id": "TSN-PD-CASEBOOK-2021",
+          "section": "病例04腹膜炎、病例05導管相關感染",
+          "pdf_pages": [
+            27,
+            28,
+            29,
+            30,
+            31,
+            32
+          ],
+          "support": "未找到足以直接發布的接頭污染處理SOP；情境題只保留『不要自行猜測、依中心訓練流程聯絡團隊』的安全訊息。",
+          "support_level": "not_directly_supported"
+        }
+      ]
+    },
+    {
+      "id": "FAQ-04",
+      "order": 4,
+      "category_id": "home_exchange_infection",
+      "question": "只要有洗手、戴口罩，就一定不會感染嗎？",
+      "format": "myth_fact",
+      "tags": [
+        "洗手",
+        "口罩",
+        "感染預防"
+      ],
+      "emotion": "你可能已經很認真洗手、戴口罩，也努力維持環境清潔，但仍然擔心感染。感染預防需要多個環節共同配合；即使努力遵守流程，也不能保證風險完全歸零。發生感染不代表患者一定做錯了什麼。",
+      "answer": {
+        "summary": "手部衛生及依照訓練執行的感染預防措施很重要，但不能保證完全不發生感染。",
+        "key_points": [
+          "洗手只是感染預防的一個環節。",
+          "應依照透析中心教導執行無菌操作及導管出口處照護。",
+          "若出現疑似感染警訊，應聯絡醫療團隊，不要因為自己已經很注意清潔就排除感染可能。"
+        ],
+        "action": "回顧自己接受過的感染預防訓練；有不確定的步驟時，請護理師重新示範。"
+      },
+      "interaction": {
+        "type": "myth_fact",
+        "items": [
+          {
+            "myth": "只要洗手，就不會感染。",
+            "fact": "洗手是重要環節，但仍需完整感染預防措施。"
+          },
+          {
+            "myth": "感染代表患者一定操作錯誤。",
+            "fact": "感染可能有不同原因，應由醫療團隊評估。"
+          }
+        ]
+      },
+      "clinical_review": {
+        "required": true,
+        "reviewer_role": "腹膜透析護理師",
+        "review_items": [
+          "感染預防措施用語",
+          "洗手、口罩及出口處照護說明",
+          "避免過度保證或責怪患者"
+        ],
+        "status": "pending"
+      },
+      "sources": [
+        {
+          "name": "台灣腎臟醫學會－腹膜透析治療臨床案例解析（中文版）",
+          "url": "https://www.tsn.org.tw/secure/archive/20261021/2850b947-1af8-4468-b8f4-dc05f88ca84b.pdf",
+          "use": "作為 PD 臨床照護參考；感染預防細節依最新院所訓練及指引核對。"
+        }
+      ],
+      "evidence": [
+        {
+          "ref_id": "TSN-PD-CASEBOOK-2021",
+          "section": "病例05導管相關感染預防與治療",
+          "pdf_pages": [
+            31,
+            32
+          ],
+          "support": "支持導管相關感染預防需多面向管理；不可推論洗手或口罩可完全消除感染風險。",
+          "support_level": "partial"
+        }
+      ]
+    },
+    {
+      "id": "FAQ-05",
+      "order": 5,
+      "category_id": "warning_signs",
+      "question": "腹膜透析時，哪些身體變化不能忽略？",
+      "format": "warning_sign_cards",
+      "tags": [
+        "腹痛",
+        "發燒",
+        "透析液混濁",
+        "出口處感染",
+        "引流異常"
+      ],
+      "emotion": "每天治療時，最令人困擾的可能不是發現異常，而是不知道這究竟重不重要。你不需要靠猜測來判斷自己的安全；認識警訊、及時詢問醫療團隊，是照護的一部分。",
+      "answer": {
+        "summary": "應留意新出現或明顯改變的症狀，以及透析液、導管出口與引流狀況；警訊與處置時效應由照護團隊確認。",
+        "key_points": [
+          "腹痛或腹部不適。",
+          "發燒或畏寒。",
+          "透析引流液混濁。",
+          "導管出口處紅、腫、疼痛或有分泌物。",
+          "導管或管路破損、脫落及引流異常。"
+        ],
+        "action": "出現上述異常時，依照透析中心提供的聯絡流程詢問；透析液混濁等疑似腹膜炎警訊不應自行等待觀察。"
+      },
+      "interaction": {
+        "type": "tap_cards",
+        "cards": [
+          {
+            "title": "腹痛或腹部不適",
+            "description": "留意新出現、持續或加劇的疼痛。"
+          },
+          {
+            "title": "發燒或畏寒",
+            "description": "可能需要評估感染等原因。"
+          },
+          {
+            "title": "透析液混濁",
+            "description": "需重視的腹膜炎警訊。"
+          },
+          {
+            "title": "出口處異常",
+            "description": "紅腫、疼痛或分泌物應回報。"
+          },
+          {
+            "title": "管路或引流異常",
+            "description": "依中心指示處理，不自行拆解或改裝。"
+          }
+        ]
+      },
+      "clinical_review": {
+        "required": true,
+        "reviewer_role": "腹膜透析護理師／腎臟科醫師",
+        "review_items": [
+          "警訊清單是否完整且符合臨床指引",
+          "症狀描述與分級",
+          "每種警訊對應的聯絡時效"
+        ],
+        "status": "pending"
+      },
+      "sources": [
+        {
+          "name": "台灣腎臟醫學會－腹膜透析治療臨床案例解析（中文版）",
+          "url": "https://www.tsn.org.tw/secure/archive/20261021/2850b947-1af8-4468-b8f4-dc05f88ca84b.pdf",
+          "use": "優先核對腹膜炎、導管及引流異常的臨床案例與處置原則。"
+        }
+      ],
+      "related": [
+        "FAQ-06",
+        "EMERGENCY"
+      ],
+      "evidence": [
+        {
+          "ref_id": "TSN-PD-CASEBOOK-2021",
+          "section": "病例04腹膜炎；病例05隧道感染",
+          "pdf_pages": [
+            27,
+            28,
+            29,
+            30,
+            31,
+            32
+          ],
+          "support": "支持透析液混濁、腹痛、發燒、噁心嘔吐及出口處膿性分泌物／紅腫等臨床表現；患者版警訊分流仍需審核。",
+          "support_level": "direct_topic_support"
+        }
+      ]
+    },
+    {
+      "id": "FAQ-06",
+      "order": 6,
+      "category_id": "warning_signs",
+      "question": "如果透析液變混濁，或出現腹痛、發燒，我應該怎麼辦？",
+      "format": "urgent_action_flow",
+      "tags": [
+        "透析液混濁",
+        "腹膜炎",
+        "緊急求助"
+      ],
+      "emotion": "看到平常清澈的透析液突然變混濁，難免會緊張。請記住：你不需要先確定自己是不是腹膜炎，才聯絡醫療團隊。及早求助不是小題大作，而是保護自己的重要一步。",
+      "answer": {
+        "summary": "透析液混濁可能是腹膜炎的重要警訊，應立即聯絡所屬腹膜透析中心或照護團隊，依指示接受評估。",
+        "key_points": [
+          "不要等到下一次換液才觀察。",
+          "聯絡時說明透析液外觀、症狀、發生時間及目前治療狀態。",
+          "是否留取或攜帶引流液、如何保存及後續治療，依醫療團隊指示。",
+          "不要自行停藥、改變透析處方或自行使用抗生素。",
+          "若有意識改變、昏厥、呼吸困難等危及生命的狀況，立即尋求緊急醫療協助。"
+        ],
+        "action": "立即使用本網站「快速求助」頁面列出的所屬透析中心聯絡方式；正式上線前必須補上合作院所核准的聯絡資訊。"
+      },
+      "interaction": {
+        "type": "scenario_router",
+        "routes": [
+          {
+            "trigger": "透析液變混濁",
+            "action": "立即聯絡腹膜透析團隊，依指示評估。"
+          },
+          {
+            "trigger": "腹痛、發燒或畏寒",
+            "action": "儘速聯絡腹膜透析團隊，說明症狀。"
+          },
+          {
+            "trigger": "意識改變、昏厥或呼吸困難",
+            "action": "立即尋求緊急醫療協助。"
+          }
+        ]
+      },
+      "clinical_review": {
+        "required": true,
+        "reviewer_role": "腹膜透析護理師／腎臟科醫師",
+        "review_items": [
+          "是否符合最新腹膜炎診斷與處置指引",
+          "求助時效與聯絡流程",
+          "引流液留取/攜帶/保存指示",
+          "緊急狀況分流與院所聯絡資訊",
+          "確認『立即聯絡』的院所聯絡方式、非上班時間流程及緊急分流"
+        ],
+        "status": "pending"
+      },
+      "sources": [
+        {
+          "name": "台灣腎臟醫學會－腹膜透析治療臨床案例解析（中文版）",
+          "url": "https://www.tsn.org.tw/secure/archive/20261021/2850b947-1af8-4468-b8f4-dc05f88ca84b.pdf",
+          "use": "優先核對腹膜炎警訊、評估及處置案例；上線前需由監督護理師確認。"
+        }
+      ],
+      "related": [
+        "FAQ-05",
+        "EMERGENCY-PERITONITIS"
+      ],
+      "evidence": [
+        {
+          "ref_id": "TSN-PD-CASEBOOK-2021",
+          "section": "病例04腹膜炎",
+          "pdf_pages": [
+            27,
+            28,
+            29
+          ],
+          "support": "支持腹痛、透析液混濁及發燒等腹膜炎表現；診斷檢驗與抗生素處方屬醫療專業處置，不應列為患者自行操作。",
+          "support_level": "direct_topic_support"
+        }
+      ]
+    },
+    {
+      "id": "FAQ-07",
+      "order": 7,
+      "category_id": "warning_signs",
+      "question": "透析液引流不順、肚子不舒服，是正常現象嗎？",
+      "format": "symptom_scenario_quiz",
+      "tags": [
+        "引流不順",
+        "腹部不適",
+        "導管"
+      ],
+      "emotion": "當治療過程和平常不一樣時，很容易擔心是不是導管出了問題。有些原因可能與姿勢、管路或排便狀況有關，但不能因此把所有不舒服都當成正常現象。",
+      "answer": {
+        "summary": "引流不順可能有不同原因，應依照受訓內容檢視並在持續、反覆或伴隨警訊時聯絡透析團隊。",
+        "key_points": [
+          "不要自行拆解、沖洗、改裝或調整導管。",
+          "若伴隨腹痛、透析液混濁、發燒或畏寒，應立即聯絡透析團隊。",
+          "是否與便秘、姿勢或導管因素有關，需依個別情況評估。"
+        ],
+        "action": "記錄發生時間、引流情形及伴隨症狀，依中心教導的聯絡流程尋求協助。"
+      },
+      "interaction": {
+        "type": "scenario_cards",
+        "scenarios": [
+          {
+            "title": "引流速度與平常不同",
+            "learning": "回顧護理師教導的觀察方式；若持續或反覆發生，聯絡團隊。"
+          },
+          {
+            "title": "管路看起來有異常",
+            "learning": "不要自行拆解或改裝，依中心指示處理。"
+          },
+          {
+            "title": "引流不順且伴隨腹痛、混濁或發燒",
+            "learning": "立即聯絡透析團隊。"
+          }
+        ]
+      },
+      "clinical_review": {
+        "required": true,
+        "reviewer_role": "腹膜透析護理師",
+        "review_items": [
+          "哪些自我檢查可由患者執行",
+          "便秘、姿勢及導管相關因素的描述",
+          "需立即聯絡的症狀組合"
+        ],
+        "status": "pending"
+      },
+      "sources": [
+        {
+          "name": "台灣腎臟醫學會－腹膜透析治療臨床案例解析（中文版）",
+          "url": "https://www.tsn.org.tw/secure/archive/20261021/2850b947-1af8-4468-b8f4-dc05f88ca84b.pdf",
+          "use": "作為引流異常臨床情境參考；患者可執行的檢查方式需護理師審核。"
+        }
+      ],
+      "evidence": [
+        {
+          "ref_id": "TSN-PD-CASEBOOK-2021",
+          "section": "病例02透析不足；病例04腹膜炎；雲端腹膜透析病患管理平台案例",
+          "pdf_pages": [
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28
+          ],
+          "support": "支持引流不順可能與導管功能、腹膜滲漏等因素有關；不可把引流異常一概視為姿勢或便秘問題。",
+          "support_level": "partial"
+        }
+      ]
+    },
+    {
+      "id": "FAQ-08",
+      "order": 8,
+      "category_id": "caregiver_support",
+      "question": "家人可以幫忙做哪些事情？哪些操作需要由受訓者執行？",
+      "format": "role_cards",
+      "tags": [
+        "家屬",
+        "照顧者",
+        "家庭支持"
+      ],
+      "emotion": "家人想幫忙，通常是因為不希望患者一個人承受太多。但支持不一定代表所有事情都要由家人代勞；陪伴、協助安排與尊重患者的選擇，也都是重要的幫助。",
+      "answer": {
+        "summary": "家屬可依患者意願協助生活安排、用品管理、回診與情緒支持；涉及治療操作的工作應由完成相應訓練且經照護團隊確認的人員執行。",
+        "key_points": [
+          "可協助整理用品、安排回診、記錄問題及提供日常支持。",
+          "換液與無菌操作不可由未受訓者自行嘗試。",
+          "若家屬需要承擔部分操作，應接受正式訓練並由護理師確認能力。",
+          "應尊重患者自主性及隱私。"
+        ],
+        "action": "與患者及透析團隊共同討論照護分工，明確區分生活支持與治療操作。"
+      },
+      "interaction": {
+        "type": "role_cards",
+        "cards": [
+          {
+            "title": "生活支持",
+            "examples": [
+              "陪同回診",
+              "協助用品管理",
+              "安排居家空間",
+              "傾聽與陪伴"
+            ]
+          },
+          {
+            "title": "需經訓練的治療操作",
+            "examples": [
+              "換液操作",
+              "無菌技術",
+              "導管相關照護",
+              "依院所流程處理污染事件"
+            ]
+          }
+        ]
+      },
+      "clinical_review": {
+        "required": true,
+        "reviewer_role": "腹膜透析護理師",
+        "review_items": [
+          "家屬可執行與需訓練項目界線",
+          "患者自主性相關措辭",
+          "是否符合院所訓練制度"
+        ],
+        "status": "pending"
+      },
+      "sources": [
+        {
+          "name": "台灣腎臟醫學會－腹膜透析治療臨床案例解析（中文版）",
+          "url": "https://www.tsn.org.tw/secure/archive/20261021/2850b947-1af8-4468-b8f4-dc05f88ca84b.pdf",
+          "use": "臨床照護情境參考；家庭角色分工需依患者與照護團隊討論。"
+        }
+      ],
+      "evidence": [
+        {
+          "ref_id": "TSN-PD-CASEBOOK-2021",
+          "section": "病例01初始腹膜透析處方及病例05居家訪視段落",
+          "pdf_pages": [
+            16,
+            17,
+            18,
+            19,
+            32
+          ],
+          "support": "可作為患者與照護團隊共同建立個別化照護計畫的背景；家屬哪些操作可執行仍須護理師依院所訓練規範確認。",
+          "support_level": "partial"
+        }
+      ]
+    },
+    {
+      "id": "FAQ-09",
+      "order": 9,
+      "category_id": "caregiver_support",
+      "question": "患者不想讓家人一直提醒或干涉，家屬該怎麼辦？",
+      "format": "communication_scenario",
+      "tags": [
+        "家屬溝通",
+        "患者自主性",
+        "照顧者壓力"
+      ],
+      "emotion": "家屬可能覺得自己明明是為患者好，卻換來不耐煩；患者也可能覺得自己已經很努力，卻每天被提醒。雙方的感受都值得被理解。",
+      "answer": {
+        "summary": "照護溝通可先詢問患者需要何種協助，避免責備或完全接手，並共同討論彼此能接受的分工。",
+        "key_points": [
+          "使用詢問與共同確認取代責備。",
+          "保留患者可自行完成的照護任務。",
+          "照顧者也需要休息與支持。"
+        ],
+        "action": "以具體、可協商的方式討論提醒頻率、協助內容與責任分工。"
+      },
+      "interaction": {
+        "type": "dialogue_choice",
+        "scenario": "患者忘記整理透析用品，家人想提醒。",
+        "choices": [
+          {
+            "id": "a",
+            "text": "你怎麼每天都忘記？這樣很危險！",
+            "feedback": "責備可能讓患者感到挫折，降低溝通意願。"
+          },
+          {
+            "id": "b",
+            "text": "你什麼都不用做，我全部幫你處理就好。",
+            "feedback": "完全接手可能減少患者參與和自主性。"
+          },
+          {
+            "id": "c",
+            "text": "要不要我們一起確認用品？還是你想自己先整理看看？",
+            "feedback": "先詢問需求，再提供支持，較能兼顧合作與自主性。",
+            "preferred": true
+          }
+        ]
+      },
+      "clinical_review": {
+        "required": false,
+        "reviewer_role": "專案內容編輯／臨床監督者抽查",
+        "review_items": [
+          "避免責怪患者或家屬",
+          "溝通內容符合患者自主性"
+        ],
+        "status": "editorial_review"
+      },
+      "evidence": [
+        {
+          "ref_id": "TSN-CKD-GUIDELINE-2025",
+          "section": "第十章第一節：以共享決策模式協助透析模式之選擇",
+          "printed_pages": [
+            197,
+            198
+          ],
+          "pdf_pages": [
+            200,
+            201
+          ],
+          "support": "指引強調SDM的知識、溝通與尊重；患者自主及家庭溝通的具體話術屬衛教延伸，需編輯與臨床監督審核。",
+          "support_level": "partial"
+        }
+      ]
+    },
+    {
+      "id": "FAQ-10",
+      "order": 10,
+      "category_id": "understanding_pd",
+      "question": "腹膜透析到底是什麼？可以用簡單的方式告訴我嗎？",
+      "format": "visual_explainer",
+      "tags": [
+        "腹膜透析原理",
+        "初學者",
+        "腹膜"
+      ],
+      "emotion": "第一次聽到腹膜透析，可能覺得很陌生，甚至不知道腹膜在哪裡。先理解基本概念就好，不需要一次記住所有專業名詞。",
+      "answer": {
+        "summary": "腹膜透析利用腹膜作為半透膜，讓透析液在腹腔內與體內進行物質及水分交換，之後再將透析液引流出來。",
+        "key_points": [
+          "腹膜是覆蓋腹腔內壁及部分腹腔器官表面的膜。",
+          "透析液經導管進入腹腔。",
+          "透析液在腹腔內停留一段時間，進行溶質及水分交換。",
+          "之後將透析液引流出來，依處方進行下一個治療循環。"
+        ],
+        "action": "可搭配一張標示腹膜、導管、腹腔及透析液流向的解剖示意圖。"
+      },
+      "interaction": {
+        "type": "annotated_diagram",
+        "labels": [
+          "腹膜",
+          "腹腔",
+          "腹膜透析導管",
+          "透析液"
+        ],
+        "alt": "腹膜透析基本原理示意圖，需由醫療專業人員確認解剖與流向。"
+      },
+      "clinical_review": {
+        "required": true,
+        "reviewer_role": "腎臟科醫師／腹膜透析護理師",
+        "review_items": [
+          "解剖位置及名詞",
+          "透析液流向與交換原理",
+          "圖片是否容易造成錯誤理解"
+        ],
+        "status": "pending"
+      },
+      "sources": [
+        {
+          "name": "台灣腎臟醫學會－腹膜透析治療臨床案例解析（中文版）",
+          "url": "https://www.tsn.org.tw/secure/archive/20261021/2850b947-1af8-4468-b8f4-dc05f88ca84b.pdf",
+          "use": "PD 治療原理與臨床情境的台灣專業參考。"
+        }
+      ],
+      "evidence": [
+        {
+          "ref_id": "TSN-PD-CASEBOOK-2021",
+          "section": "腹膜透析概述",
+          "pdf_pages": [
+            14,
+            15
+          ],
+          "support": "本次讀取範圍可支持PD作為居家透析模式與個別化治療概念；腹膜解剖及交換原理圖仍需另核對教材或由醫師確認。",
+          "support_level": "partial"
+        }
+      ]
+    },
+    {
+      "id": "FAQ-11",
+      "order": 11,
+      "category_id": "understanding_pd",
+      "question": "腹膜透析和血液透析有什麼不同？我應該怎麼選擇？",
+      "format": "comparison_table",
+      "tags": [
+        "PD",
+        "HD",
+        "共同決策",
+        "治療選擇"
+      ],
+      "emotion": "面對不同透析方式，很容易不知道該怎麼選。你不需要急著找出哪一種最好；重要的是和醫療團隊一起評估哪種方式符合自己的身體狀況、生活需求與期待。",
+      "answer": {
+        "summary": "PD與HD都是腎臟替代療法。依2025台灣指引，若無法接受腎臟移植，患者可依自主選擇PD或HD；指引指出兩者長期預後近似，適合的方式需透過共同決策評估。",
+        "key_points": [
+          "腹膜透析（PD）利用腹膜作為半透膜；血液透析（HD）透過體外透析器清除代謝廢物及多餘水分。",
+          "2025台灣指引指出，若無法接受腎臟移植，患者可依自主選擇PD或HD；指引列出的長期預後近似，但個人條件與治療經驗仍可能不同。",
+          "PD常涉及居家治療訓練、用品管理及感染預防；HD則需評估透析地點、頻率、血管通路與交通安排。",
+          "選擇不能只看存活率或方便程度，還需考慮臨床條件、患者偏好、家庭支持、生活安排及醫療資源。",
+          "腎臟移植與保守／安寧照護也可能是需要和醫療團隊討論的選項。"
+        ],
+        "action": "帶著個人疑問與偏好和腎臟科醫師、護理師討論，確認可行選項及各自負擔。"
+      },
+      "interaction": {
+        "type": "comparison",
+        "dimensions": [
+          "治療原理",
+          "治療地點與安排",
+          "通路",
+          "日常照護需求",
+          "生活彈性與限制",
+          "需與醫療團隊討論的條件"
+        ],
+        "note": "表格內容需依台灣臨床指引與合作院所實際服務模式確認；避免將比較寫成絕對優劣。"
+      },
+      "clinical_review": {
+        "required": true,
+        "reviewer_role": "腎臟科醫師／腹膜透析護理師",
+        "review_items": [
+          "PD/HD 描述是否平衡且正確",
+          "是否納入居家 HD 等治療模式的必要說明",
+          "共同決策問題是否合適"
+        ],
+        "status": "pending"
+      },
+      "sources": [
+        {
+          "name": "台灣腎臟醫學會－臺灣慢性腎臟病臨床診療指引（2025 更新版）",
+          "url": "https://www.tsn.org.tw/secure/archive/20261021/8c343fcb-a9bd-422f-8ff5-c638dd7992a1.pdf",
+          "use": "腎臟替代療法與 CKD 治療規劃之台灣指引依據；需依文件章節核對相關敘述。"
+        },
+        {
+          "name": "台灣腎臟醫學會－腹膜透析治療臨床案例解析（中文版）",
+          "url": "https://www.tsn.org.tw/secure/archive/20261021/2850b947-1af8-4468-b8f4-dc05f88ca84b.pdf",
+          "use": "PD 治療方式與臨床案例補充。"
+        }
+      ],
+      "evidence": [
+        {
+          "ref_id": "TSN-CKD-GUIDELINE-2025",
+          "section": "第十章第一節A10-1-1、A10-1-2；第二節A10-2-3至A10-2-5",
+          "printed_pages": [
+            197,
+            198,
+            202,
+            203,
+            204,
+            205
+          ],
+          "pdf_pages": [
+            200,
+            201,
+            205,
+            206,
+            207,
+            208
+          ],
+          "support": "直接支持透析時機個人化、SDM，以及PD與HD長期預後近似；須同時呈現移植與保守／安寧照護等選項，避免把PD與HD簡化成單一勝負。",
+          "support_level": "direct_topic_support"
+        },
+        {
+          "ref_id": "TSN-PD-CASEBOOK-2021",
+          "section": "腹膜透析概述",
+          "pdf_pages": [
+            14,
+            15
+          ],
+          "support": "補充PD居家治療彈性及限制；案例教材中的適應症描述不可取代個別臨床評估。",
+          "support_level": "partial"
+        }
+      ]
+    },
+    {
+      "id": "FAQ-12",
+      "order": 12,
+      "category_id": "understanding_pd",
+      "question": "開始腹膜透析後，生活、工作、飲食和旅行會有哪些改變？",
+      "format": "lifestyle_cards",
+      "tags": [
+        "生活安排",
+        "飲食",
+        "運動",
+        "旅行",
+        "工作"
+      ],
+      "emotion": "開始透析確實會帶來新的安排，但不代表原本喜歡的事情都必須放棄。可以先理解哪些地方需要調整，再逐步找到適合自己的生活節奏。",
+      "answer": {
+        "summary": "腹膜透析患者的工作、飲食、活動及旅行安排需依個人處方、身體狀況與治療團隊建議調整。",
+        "key_points": [
+          "工作與日常生活：需與團隊安排治療時程及適合的操作空間。",
+          "飲食與水分：依尿量、營養狀況、檢查結果及個人處方調整，不套用單一菜單。",
+          "運動與活動：與團隊討論活動種類、強度及導管保護。",
+          "旅行與外宿：TSN PD案例教材的旅行案例指出，可事先和PD醫師、護理人員討論行程、文件、耗材供應及目的地支援；需要提前規劃。"
+        ],
+        "action": "將最在意的生活情境列出，於門診或衛教時逐項和團隊討論。"
+      },
+      "interaction": {
+        "type": "lifestyle_cards",
+        "cards": [
+          {
+            "title": "工作與日常生活",
+            "prompt": "我的工作時間與治療安排如何協調？"
+          },
+          {
+            "title": "飲食與水分",
+            "prompt": "我的飲食與水分目標是什麼？"
+          },
+          {
+            "title": "運動與活動",
+            "prompt": "哪些活動適合我？需要如何保護導管？"
+          },
+          {
+            "title": "旅行與外宿",
+            "prompt": "旅行前要準備哪些耗材、設備與聯絡資訊？"
+          }
+        ]
+      },
+      "clinical_review": {
+        "required": true,
+        "reviewer_role": "腎臟科醫師／腹膜透析護理師／營養師",
+        "review_items": [
+          "飲食、水分與運動說明避免通用化",
+          "旅行耗材及運送建議",
+          "工作與生活安排的限制與可能性"
+        ],
+        "status": "pending"
+      },
+      "sources": [
+        {
+          "name": "台灣腎臟醫學會－臺灣慢性腎臟病臨床診療指引（2025 更新版）",
+          "url": "https://www.tsn.org.tw/secure/archive/20261021/8c343fcb-a9bd-422f-8ff5-c638dd7992a1.pdf",
+          "use": "CKD 照護與治療規劃背景；個別飲食與治療安排需臨床評估。"
+        },
+        {
+          "name": "台灣腎臟醫學會－腹膜透析治療臨床案例解析（中文版）",
+          "url": "https://www.tsn.org.tw/secure/archive/20261021/2850b947-1af8-4468-b8f4-dc05f88ca84b.pdf",
+          "use": "PD 生活照護與案例情境參考。"
+        }
+      ],
+      "evidence": [
+        {
+          "ref_id": "TSN-PD-CASEBOOK-2021",
+          "section": "病例23旅行處方調整",
+          "pdf_pages": null,
+          "support": "直接支持PD患者可在團隊協助下規劃旅行、耗材供應與治療安排；正式上線前補上精確PDF頁碼。",
+          "support_level": "direct_topic_support"
+        }
+      ]
+    }
+  ],
+  "patient_scenarios": [
+    {
+      "id": "S-01",
+      "title": "我剛開始了解腹膜透析",
+      "description": "還不清楚 PD 是什麼、和血液透析差在哪裡。",
+      "faq_ids": [
+        "FAQ-10",
+        "FAQ-11",
+        "FAQ-12"
+      ]
+    },
+    {
+      "id": "S-02",
+      "title": "我正在家裡進行換液",
+      "description": "擔心環境、接頭、用品或操作步驟出錯。",
+      "faq_ids": [
+        "FAQ-01",
+        "FAQ-02",
+        "FAQ-03",
+        "FAQ-04"
+      ]
+    },
+    {
+      "id": "S-03",
+      "title": "我發現身體或透析液有異常",
+      "description": "不確定是否需要聯絡透析中心。",
+      "faq_ids": [
+        "FAQ-05",
+        "FAQ-06",
+        "FAQ-07"
+      ]
+    },
+    {
+      "id": "S-04",
+      "title": "我是患者的家人或照顧者",
+      "description": "想幫忙，但不確定怎麼支持才合適。",
+      "faq_ids": [
+        "FAQ-08",
+        "FAQ-09"
+      ]
+    }
+  ],
+  "ui_features": {
+    "browse_modes": [
+      "category_sections",
+      "all_questions_list"
+    ],
+    "search": {
+      "enabled": true,
+      "search_fields": [
+        "question",
+        "tags",
+        "answer.summary"
+      ]
+    },
+    "popular_questions": {
+      "enabled": true,
+      "initial_order": [
+        "FAQ-06",
+        "FAQ-03",
+        "FAQ-05",
+        "FAQ-01"
+      ],
+      "note": "第一版以編輯指定排序，不宣稱為真實使用者統計；未來可串接後端統計。"
+    },
+    "helpful_feedback": {
+      "enabled": true,
+      "options": [
+        "有幫助",
+        "還需要更多說明"
+      ],
+      "storage": "Google Forms or future backend",
+      "privacy_notice": "請勿輸入姓名、病歷號、聯絡方式或可識別個人的健康資訊。"
+    },
+    "related_content_links": {
+      "enabled": true,
+      "targets": [
+        "drama",
+        "care-guide",
+        "emergency"
+      ]
+    },
+    "accessibility": {
+      "large_text_mode": true,
+      "font_scaling": true,
+      "large_touch_targets": true,
+      "high_contrast": true
+    }
+  },
+  "disclaimer": "本網站提供一般衛教資訊，不取代醫師診斷、個別治療處方或腹膜透析護理師的實際操作訓練。若出現透析液混濁、腹痛、發燒、導管異常或其他疑慮，請依所屬透析中心指示聯絡醫療團隊。"
+}
