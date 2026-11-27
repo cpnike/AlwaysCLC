@@ -1,0 +1,13 @@
+/* Shared navigation for every Always CHECK LOOK CALL page */
+.global-header{position:sticky;top:0;z-index:100;background:rgba(247,244,234,.96);backdrop-filter:blur(16px);border-bottom:1px solid rgba(25,43,40,.12)}
+.global-header *{box-sizing:border-box}.global-nav{width:min(1200px,calc(100% - 40px));min-height:78px;margin:auto;display:flex;align-items:center;gap:22px;justify-content:space-between}
+.global-brand{display:flex;align-items:center;gap:10px;min-width:190px;color:#192b28;text-decoration:none;font-weight:800;line-height:1.15}
+.global-brand img{width:48px;height:48px;object-fit:contain;border-radius:50%;flex:none}.global-brand small{display:block;font-size:9px;letter-spacing:.12em;color:#65746e;margin-top:5px}
+.global-links{display:flex;align-items:center;justify-content:center;gap:clamp(10px,1.45vw,22px);flex:1}
+.global-links a{color:#42544f;text-decoration:none;font-size:.82rem;font-weight:700;white-space:nowrap;padding:10px 0;border-bottom:2px solid transparent}
+.global-links a:hover,.global-links a[aria-current=page]{color:#164d45;border-color:#f28b37}
+.global-actions{display:flex;align-items:center;gap:9px}.global-large{border:1px solid #cbd4cc;background:#fffefa;color:#164d45;border-radius:99px;padding:9px 13px;min-height:42px;font:inherit;font-weight:700;font-size:.82rem;white-space:nowrap;cursor:pointer}
+.global-menu{display:none;border:1px solid #cbd4cc;background:#fffefa;color:#192b28;border-radius:12px;min-width:44px;min-height:44px;font-size:22px;cursor:pointer}
+@media(max-width:980px){.global-nav{gap:12px}.global-brand{min-width:165px}.global-brand img{width:42px;height:42px}.global-links{gap:10px}.global-links a{font-size:.75rem}}
+@media(max-width:760px){.global-nav{width:calc(100% - 30px);min-height:68px;flex-wrap:wrap;gap:8px}.global-brand img{width:40px;height:40px}.global-brand{min-width:0;font-size:.92rem}.global-brand small{font-size:8px}.global-menu{display:block}.global-links{display:none;order:3;flex-basis:100%;width:100%;padding:7px 0 14px;align-items:stretch;flex-direction:column;gap:0}.global-links.open{display:flex}.global-links a{padding:11px 8px;border-bottom:1px solid rgba(25,43,40,.09);font-size:.9rem}.global-actions{margin-left:auto}.global-large{font-size:.75rem;padding:7px 10px;min-height:40px}}
+html.large-text .global-links a,html.large-text .global-large{font-size:1rem}.global-header button:focus-visible,.global-header a:focus-visible{outline:3px solid #f28b37;outline-offset:3px}

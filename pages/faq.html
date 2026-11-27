@@ -5,40 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#192b28">
   <meta name="description" content="透析如虎口 FAQ：從居家換液、感染警訊、家屬支持到透析選擇，找到清楚且有依據的衛教資訊。">
-  <title>常見問題 FAQ｜透析如虎口 Always Check 路口</title>
+  <title>常見問題 FAQ｜透析如虎口 Always CHECK LOOK CALL</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700;800&family=Noto+Serif+TC:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/faq.css">
+<link rel="stylesheet" href="../assets/css/global-nav.css">
 </head>
 <body>
-<header class="site-header">
-  <div class="shell nav">
-    <a class="brand" href="../index.html#home" aria-label="透析如虎口首頁">
-      <span class="brand-mark">路</span>
-      <span>透析如虎口<small>ALWAYS CHECK 路口</small></span>
-    </a>
-    <nav class="desktop-nav" aria-label="主要導覽">
-      <a href="../index.html#pain">生活疑問</a>
-      <a href="../index.html#path">探索學習</a>
-      <a href="../index.html#drama">情境短劇</a>
-      <a class="active" href="faq.html" aria-current="page">常見問題</a>
-      <a href="../index.html#help">快速求助</a>
-    </nav>
-    <div class="nav-actions">
-      <button class="large-toggle" id="largeTextToggle" type="button" aria-pressed="false"><span>Aa</span> 大字模式</button>
-      <button class="menu-toggle" id="menuToggle" aria-label="開啟導覽選單" aria-expanded="false">☰</button>
-    </div>
-  </div>
-  <nav class="mobile-nav" id="mobileNav" aria-label="手機導覽">
-    <a href="../index.html#pain">生活疑問</a>
-    <a href="../index.html#path">探索學習</a>
-    <a href="../index.html#drama">情境短劇</a>
-    <a class="active" href="faq.html" aria-current="page">常見問題</a>
-    <a href="../index.html#help">快速求助</a>
-  </nav>
-</header>
+<header class="global-header"><div class="global-nav"><a class="global-brand" href="../index.html" aria-label="透析如虎口首頁"><img src="../assets/images/tiger-check-logo.png" alt="Always CHECK LOOK CALL 老虎 Logo"><span>透析如虎口<small>ALWAYS CHECK LOOK CALL</small></span></a><nav class="global-links" aria-label="主要功能導覽"><a href="../index.html">首頁</a><a href="care-guide.html">居家照護指南</a><a href="faq.html" aria-current="page">FAQ</a><a href="drama.html">AI 情境短劇</a><a href="quiz.html">大家來找碴</a><a href="../index.html#help">快速求助</a><a href="feedback.html">回饋與提問</a></nav><div class="global-actions"><button class="global-large" id="globalLargeText" type="button" aria-pressed="false">Aa 大字模式</button><button class="global-menu" type="button" aria-label="開啟導覽選單" aria-expanded="false">☰</button></div></div></header>
 
+<button id="largeTextToggle" type="button" hidden aria-pressed="false">Aa 大字模式</button>
 <main>
   <section class="faq-hero">
     <div class="shell hero-grid">
@@ -123,14 +100,15 @@
 
 <footer class="site-footer">
   <div class="shell footer-row">
-    <a class="brand footer-brand" href="../index.html#home"><span class="brand-mark">路</span><span>透析如虎口<small>ALWAYS CHECK 路口</small></span></a>
+    <a class="brand footer-brand" href="../index.html#home"><span class="brand-mark">路</span><span>透析如虎口<small>ALWAYS CHECK LOOK CALL</small></span></a>
     <div class="footer-links"><a href="../index.html">回到首頁</a><a href="../index.html#path">居家照護教學</a><a href="../index.html#help">快速求助</a></div>
   </div>
-  <div class="shell copyright">© 2026 透析如虎口｜Always Check 路口 · 第四組專案網站原型</div>
+  <div class="shell copyright">© 2026 透析如虎口｜Always CHECK LOOK CALL · 第四組專案網站原型</div>
 </footer>
 <nav class="bottom-nav" aria-label="手機快速導覽">
   <a href="../index.html#home"><span>⌂</span>首頁</a><a href="../index.html#path"><span>▦</span>教學</a><a class="active" href="faq.html"><span>？</span>FAQ</a><a href="../index.html#help"><span>＋</span>求助</a>
 </nav>
-<script src="../assets/js/faq.js" defer></script>
+<script src="../assets/js/global-nav.js" defer></script><script src="../assets/js/faq.js" defer></script><script>document.getElementById("globalLargeText").addEventListener("click",()=>document.getElementById("largeTextToggle")?.click());</script>
+
 </body>
 </html>
